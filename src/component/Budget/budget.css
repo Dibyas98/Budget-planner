@@ -1,0 +1,28 @@
+.budget{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+}
+.budget p{
+    height: 50px;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+.budget div{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.budget input{
+    padding: 0;;
+    /* height: 30px; */
+    border: none;
+    font-size: 2rem;
+    
+}
+.budget input:focus{
+    box-shadow: 0 0 5px 4px #6cb4f58c;
+    transition: 0.2s ease-in-out;
+}
